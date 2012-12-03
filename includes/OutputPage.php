@@ -3074,6 +3074,7 @@ $templates
 			) );
 		}
 
+		$tags[] = Html::element('link', array('rel' => 'space-api', 'href' => 'http://synhak.org/auth/status.json'));
 
 		# Language variants
 		if ( !$wgDisableLangConversion && $wgCanonicalLanguageLinks ) {
